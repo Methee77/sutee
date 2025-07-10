@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>คลังเรียนรู้</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Kanit', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-4xl font-bold text-center text-blue-800 mb-10">คลังเรียนรู้</h1>
+
+    <!-- กล่องเมนูรายวิชาแบบแถบสี -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- 01403112 ปฏิบัติการเคมีทั่วไป -->
+      <div class="border-4 border-blue-500 bg-white text-center p-4">
+        <div class="text-3xl text-blue-600 font-bold">01403112</div>
+        <div class="mt-3 bg-blue-500 text-white text-lg font-semibold py-2">ปฏิบัติการเคมีทั่วไป</div>
+      </div>
+
+      <!-- 01403114 ปฏิบัติการหลักมูลเคมีทั่วไป -->
+      <div class="border-4 border-green-500 bg-white text-center p-4">
+        <div class="text-3xl text-green-600 font-bold">01403114</div>
+        <div class="mt-3 bg-green-500 text-white text-lg font-semibold py-2">ปฏิบัติการหลักมูลเคมีทั่วไป</div>
+      </div>
+
+      <!-- 01403118 ปฏิบัติการเคมีพื้นฐาน -->
+      <div class="border-4 border-red-500 bg-white text-center p-4">
+        <div class="text-3xl text-red-600 font-bold">01403118</div>
+        <div class="mt-3 bg-red-500 text-white text-lg font-semibold py-2">ปฏิบัติการเคมีพื้นฐาน</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
